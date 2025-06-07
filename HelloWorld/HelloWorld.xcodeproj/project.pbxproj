@@ -1,0 +1,163 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 52;
+objects = {
+
+/* Begin PBXBuildFile section */
+AA0000011A1B2C3D4E5F0001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000011A1B2C3D4E5F0004 /* AppDelegate.swift */; };
+AA0000021A1B2C3D4E5F0002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000011A1B2C3D4E5F0005 /* ViewController.swift */; };
+AA0000031A1B2C3D4E5F0003 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA0000011A1B2C3D4E5F0006 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+AA0000011A1B2C3D4E5F0004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+AA0000011A1B2C3D4E5F0005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+AA0000011A1B2C3D4E5F0006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+AA0000011A1B2C3D4E5F0009 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+AA0000011A1B2C3D4E5F0007 = {
+isa = PBXGroup;
+children = (
+AA0000011A1B2C3D4E5F0004 /* AppDelegate.swift */,
+AA0000011A1B2C3D4E5F0005 /* ViewController.swift */,
+AA0000011A1B2C3D4E5F0006 /* Info.plist */,
+);
+sourceTree = "<group>";
+path = "";
+};
+AA0000011A1B2C3D4E5F0008 /* Products */ = {
+isa = PBXGroup;
+children = (
+AA0000011A1B2C3D4E5F0009 /* HelloWorld.app */,
+);
+name = Products;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+AA0000011A1B2C3D4E5F0010 /* HelloWorld */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = AA0000011A1B2C3D4E5F0013 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+buildPhases = (
+AA0000011A1B2C3D4E5F0011 /* Sources */,
+AA0000011A1B2C3D4E5F0012 /* Resources */,
+);
+dependencies = (
+);
+name = HelloWorld;
+productName = HelloWorld;
+productReference = AA0000011A1B2C3D4E5F0009 /* HelloWorld.app */;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+AA0000011A1B2C3D4E5F0000 /* Project object */ = {
+isa = PBXProject;
+buildConfigurationList = AA0000011A1B2C3D4E5F0014 /* Build configuration list for PBXProject "HelloWorld" */;
+compatibilityVersion = "Xcode 12.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+);
+mainGroup = AA0000011A1B2C3D4E5F0007;
+productRefGroup = AA0000011A1B2C3D4E5F0008 /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+AA0000011A1B2C3D4E5F0010 /* HelloWorld */,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+AA0000011A1B2C3D4E5F0011 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+AA0000011A1B2C3D4E5F0001 /* AppDelegate.swift in Sources */,
+AA0000021A1B2C3D4E5F0002 /* ViewController.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+AA0000011A1B2C3D4E5F0012 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+AA0000031A1B2C3D4E5F0003 /* Info.plist in Resources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+AA0000011A1B2C3D4E5F0015 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+INFOPLIST_FILE = Info.plist;
+PRODUCT_BUNDLE_IDENTIFIER = "com.example.helloworld";
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+};
+name = Debug;
+};
+AA0000011A1B2C3D4E5F0016 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+INFOPLIST_FILE = Info.plist;
+PRODUCT_BUNDLE_IDENTIFIER = "com.example.helloworld";
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+};
+name = Release;
+};
+AA0000011A1B2C3D4E5F0017 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CLANG_ENABLE_MODULES = YES;
+SDKROOT = iphoneos;
+};
+name = Debug;
+};
+AA0000011A1B2C3D4E5F0018 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CLANG_ENABLE_MODULES = YES;
+SDKROOT = iphoneos;
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+AA0000011A1B2C3D4E5F0013 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+AA0000011A1B2C3D4E5F0015 /* Debug */,
+AA0000011A1B2C3D4E5F0016 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+AA0000011A1B2C3D4E5F0014 /* Build configuration list for PBXProject "HelloWorld" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+AA0000011A1B2C3D4E5F0017 /* Debug */,
+AA0000011A1B2C3D4E5F0018 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+};
+rootObject = AA0000011A1B2C3D4E5F0000 /* Project object */;
+}
